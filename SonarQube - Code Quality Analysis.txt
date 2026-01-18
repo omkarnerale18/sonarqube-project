@@ -1,6 +1,6 @@
 											SonarQube - Code Quality Analysis
 														by
-													Kastro Kiran V
+													Omkar Nerale
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Step 1: Launch Ubuntu VM with instance type as t2.large, AMI: 24.04, Storage: 25 GB, No. of instances: 1
 
@@ -9,7 +9,7 @@ Step 2: Connect to the VM
 Step 3: sudo apt update
 
 Step 4: Lets setup Jenkins
-$ sudo apt install openjdk-17-jre-headless -y
+$ sudo apt install openjdk-17-jre-headless -y (Install latest version for avoiding conflicts)
 
 The below commands can be found in; https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 
@@ -84,4 +84,4 @@ Similarly configure dockerhub credentials with id as "dockerhub-credentials" wit
 Manage Jenkins --- System --- Scroll down to 'SonarQube servers' --- Click on 'Add SonarQube' --- Name: sonar-server --- ServerURL: <PublicIPofSQinstalledVM>:9000 --- Server Authentication Token: select 'sonar-token' --- Apply --- Save
 
 
-<For the next steps, please watch the video>
+
