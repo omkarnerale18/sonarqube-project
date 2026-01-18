@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F7FA; /* Light themed background */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* App Container */
+.app-container {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #E1E5EB;
+    border-radius: 16px;
+    padding: 45px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+/* App Title */
+.app-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 45px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+/* Profile Links Section */
+.profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.profile-button {
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.portfolio-button:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.github-button {
+    background: linear-gradient(135deg, #24292e 0%, #2f363d 100%);
+}
+
+.github-button:hover {
+    background: linear-gradient(135deg, #2f363d 0%, #24292e 100%);
+}
+
+.linkedin-button {
+    background: linear-gradient(135deg, #0077b5 0%, #005885 100%);
+}
+
+.linkedin-button:hover {
+    background: linear-gradient(135deg, #005885 0%, #0077b5 100%);
+}
+
+/* Profile Icon */
+.profile-icon {
+    width: 10px !important;
+    height: 10px !important;
+    flex-shrink: 0;
+}
+
+/* Footer Message */
+.footer-message {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4a5568;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
